@@ -1,6 +1,6 @@
 terraform {
    backend "s3" {
-     bucket = "udacity-ami-image"
+     bucket = "udacity_sre_terraform" # S3 bucket for terraform
      key    = "terraform/terraform.tfstate"
      region = "us-east-1"
    }
